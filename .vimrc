@@ -1,5 +1,12 @@
 " .vimrc hsim's vim config file
 
+" detect file type
+filetype on
+filetype plugin on
+
+" use ',' change of '\'
+let mapleader=","
+
 " thogen 自身也置于独立目录中，需指定其路径 
 runtime bundle/pathogen/autoload/pathogen.vim
 " 运行 pathogen
@@ -83,6 +90,4 @@ set foldmethod=syntax
 " 启动 vim 时关闭折叠代码
 set nofoldenable
 " 操作：za，打开或关闭当前折叠；zM，关闭所有折叠；zR，打开所有折叠
-
-
 
