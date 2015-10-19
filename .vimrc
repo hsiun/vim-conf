@@ -4,7 +4,7 @@
 filetype on
 filetype plugin on
 
-" use ',' change of '\'
+" use ',' instead of '\'
 let mapleader=","
 
 " thogen 自身也置于独立目录中，需指定其路径 
