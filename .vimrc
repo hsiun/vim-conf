@@ -115,3 +115,8 @@ let NERDTreeShowHidden=1
 let NERDTreeMinimalUI=1
 " " 删除文件时自动删除文件对应 buffer
 let NERDTreeAutoDeleteBuffer=1
+
+
+" UltiSnipe模板目录的地址
+let g:UltiSnipsSnippetDirectories=["mysnippets"]
+
