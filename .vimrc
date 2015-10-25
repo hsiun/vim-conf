@@ -124,3 +124,7 @@ let g:UltiSnipsSnippetDirectories=["mysnippets"]
 let g:UltiSnipsExpandTrigger="<leader><tab>"
 let g:UltiSnipsJumpForwardTrigger="<leader><tab>"
 let g:UltiSnipsJumpBackwardTrigger="<leader><s-tab>"
+
+
+" 一键编译main项目快捷建,m
+nmap <Leader>m :!rm -rf main<CR>:wa<CR>:make<CR>:cw<CR><CR>:!./main<CR>
