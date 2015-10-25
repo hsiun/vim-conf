@@ -125,6 +125,14 @@ let g:UltiSnipsExpandTrigger="<leader><tab>"
 let g:UltiSnipsJumpForwardTrigger="<leader><tab>"
 let g:UltiSnipsJumpBackwardTrigger="<leader><s-tab>"
 
+" *.cpp 和 *.h 间切换
+nmap <Leader>ch :A<CR>
+" " 子窗口中显示 *.cpp 或 *.h
+nmap <Leader>sch :AS<CR>
+
+
 
 " 一键编译main项目快捷建,m
 nmap <Leader>m :!rm -rf main<CR>:wa<CR>:make<CR>:cw<CR><CR>:!./main<CR>
+
+
