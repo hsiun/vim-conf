@@ -47,6 +47,7 @@ endf
 map <silent> <F11> :call ToggleFullscreen()<CR>
 " 启动 vim 时自动全屏
 "autocmd VimEnter * call ToggleFullscreen()
+set lines=35 columns=138
 
 " 总是显示状态栏
 set laststatus=2
