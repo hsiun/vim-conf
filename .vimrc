@@ -156,3 +156,15 @@ nmap <Leader>sch :AS<CR>
 nmap <Leader>m :!rm -rf main<CR>:wa<CR>:make<CR>:cw<CR><CR>:!./main<CR>
 
 
+" 每次打开buffer就执行语法检查
+let g:syntastic_check_on_open = 1
+
+"如果想使用多个检查器，可以这样写：
+"let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
+
+" 同git diff,实时展示文件中修改的行
+" 只是不喜欢除了行号多一列, 默认关闭,gs时打开
+let g:gitgutter_map_keys = 0
+let g:gitgutter_enabled = 1
+"let g:gitgutter_highlight_lines = 1
+" nnoremap <leader>gs :GitGutterToggle<CR>
