@@ -20,3 +20,10 @@
   <li> ,ch 子窗口中将显示实现文件/接口文件</li>
   <li> ,sch 文件和接口文件间切换</li>
 </ul>
+<h4>语言支持：</h4>
+<ul>
+  <li>C/C++</li>
+  <li>PHP</li>
+  <li>Pyhon</li>
+  <li>Java</li>
+</ul>

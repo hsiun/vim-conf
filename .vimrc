@@ -1,4 +1,4 @@
-" .vimrc hsim's vim config file
+" Hsium的vim配置文件  Hsim's vim config file
 
 " 配置多语言环境，解决Windows下中文乱码
 if has("multi_byte") 
