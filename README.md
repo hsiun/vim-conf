@@ -11,6 +11,9 @@
   <li> ultisnips     模板不全工具</li>
   <li>vim-indent-guides   显示缩进（并未使用）</li>
   <li>vim-powerline 漂亮的显示状态栏</li>
+  <li>vim-fugitive  git集成</li>
+  <li>syntastic     静态语法分析器</li>
+  <li>vim-gitgutter 差异分析</li>
 </ul>
 <h4>常用操作：</h4>
 <ul>
