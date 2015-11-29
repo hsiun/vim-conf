@@ -31,6 +31,6 @@
   <li>Java</li>
 </ul>
 <h4>Windows系统安装：</h4>
-<p>找到vim安装的目录，将.vimrc和vim目录复制到安装目录下。</p>
+<p>找到vim安装的目录，将.vimrc复制到安装根目录下，并且将.vim中的bundle复制到vimfiles目录中</p>
 <h4>Linux系统安装：</h4>
 <p>将.vimrc和vim目录复制到用户根目录下，为当前用户安装此vim插件。</>
