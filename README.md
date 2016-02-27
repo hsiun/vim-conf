@@ -22,6 +22,9 @@
   <li> ,fl 显示文件列表</li>
   <li> ,ch 子窗口中将显示实现文件/接口文件</li>
   <li> ,sch 文件和接口文件间切换</li>
+  <li> ctr+w+h  光标focus左侧树形目录</li>
+  <li> ctrl+w+l 光标focus右侧文件显示窗口</li> 
+  <li> ctrl+w+w，光标自动在左右侧窗口切换</li>
 </ul>
 <h4>语言支持：</h4>
 <ul>
